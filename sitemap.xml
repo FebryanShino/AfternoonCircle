@@ -25,10 +25,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://febryanshino.github.io/AfternoonCircle/#/tools</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://febryanshino.github.io/AfternoonCircle/#/cm</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://febryanshino.github.io/AfternoonCircle/#/extractor</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://febryanshino.github.io/AfternoonCircle/#/simulator</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
-
