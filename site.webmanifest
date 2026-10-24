@@ -1,0 +1,17 @@
+{
+  "name": "AfterNoon | ウマ娘 月間ファン獲得ランキング",
+  "short_name": "AfterNoon",
+  "description": "ウマ娘 プリティーダービー サークル「AfterNoon」公式月間ファン獲得ランキング＆サークルダッシュボード",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090a0d",
+  "theme_color": "#f1c453",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
