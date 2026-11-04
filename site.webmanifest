@@ -1,7 +1,7 @@
 {
-  "name": "AfterNoon | ウマ娘 月間ファン獲得ランキング",
+  "name": "AfterNoon | Uma Musume Circle Fans Leaderboard (ウマ娘 月間ファン獲得ランキング)",
   "short_name": "AfterNoon",
-  "description": "ウマ娘 プリティーダービー サークル「AfterNoon」公式月間ファン獲得ランキング＆サークルダッシュボード",
+  "description": "Official monthly fans leaderboard, daily rank tracker, and telemetry for Uma Musume circle AfterNoon (ID: 746888162)",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#090a0d",
@@ -14,4 +14,3 @@
     }
   ]
 }
-
