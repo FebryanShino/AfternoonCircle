@@ -31,19 +31,25 @@ AfterNoon Web tracks monthly circle fan gains, honors top monthly contributors o
 - Historical archive of completed monthly seasons.
 - Displays past final circle ranks, total fans earned, and the Monthly MVP Trainer spotlight.
 
-### 4. Receipt Factor Maker
+### 4. Parent Leaderboard & Factor Scoring
+- Objective PvP utility evaluation scoring Main and Grandparent (GP1 / GP2) Blue, Pink, Green, and White skill factors.
+- Clustered team portrait stage keeping 3D/animated portraits close together in a unified podium.
+- In-depth factor inspection modal displaying 3-generation lineage trees, factor inventories, and spark chance calculations.
+- Comprehensive scoring guide with transparent mathematical formulas and course bashin values sourced from U-Tools.
+
+### 5. PvP Breakdown (Champions Meeting & League of Heroes)
+- Complete course topology with race phases: Opening Leg, Middle Leg, Late Race, Final Straight, corners, slopes, and uphill/downhill sections.
+- Character tier recommendations and skill priority guides for active event tracks.
+- Skill impact simulations showing acceleration curves, speed gain, and distance benefit.
+
+### 6. Receipt Factor Maker
 - Drop or upload factor list screenshots from your training runs.
 - Automatically detects scroll order and stitches the screenshots into a single vertical receipt image without scrollbars.
 - Calculates cumulative star counts for duplicate factors across parent trainees.
 - Exports inheritance data into Gametora-compatible JSON for sharing and build planning.
 - Download the stitched receipt as a PNG or JPG image.
 
-### 5. Champions Meeting Breakdown
-- Complete course topology with race phases: Opening Leg, Middle Leg, Late Race, Final Straight, corners, slopes, and uphill/downhill sections.
-- Character tier recommendations and skill priority guides for the active tournament track.
-- Skill impact simulations showing acceleration curves, speed gain, and distance benefit.
-
-### 6. Race Simulator
+### 7. Race Simulator
 - Test trainee stats, running styles (Runner, Leader, Betweener, Chaser), and skill combinations against race course presets.
 
 ---
