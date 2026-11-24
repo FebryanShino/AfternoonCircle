@@ -1,115 +1,156 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./icon.png" />
+    <link rel="apple-touch-icon" href="./icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AfterNoon | Uma Musume Circle &amp; Parent Leaderboard (ウマ娘 サークル・ファン数・因子)</title>
+    <meta
+      name="description"
+      content="Official Uma Musume: Pretty Derby circle AfterNoon (ID: 746888162) monthly fans leaderboard, daily rank tracker, parent evaluation, and PvP breakdown. ウマ娘 サークル「AfterNoon」の月間ファン獲得ランキング・順位推移・継承親評価・チャンミ攻略。"
+    />
+    <meta
+      name="keywords"
+      content="AfterNoon, AfterNoon Circle, 746888162, Uma Musume, Uma Musume Pretty Derby, Uma Musume circle leaderboard, Uma Musume fans leaderboard, Uma Musume parent leaderboard, Uma Musume factor extractor, Uma Musume race simulator, Champions Meeting, League of Heroes, ウマ娘, ウマ娘 プリティーダービー, サークル, AfterNoon サークル, 月間ファン獲得ランキング, ファン数ランキング, サークル順位推移, 継承親, 因子, 因子抽出, チャンミ, チャンピオンズミーティング, リーグオブヒーローズ, レースシミュレーター, OSHI RUNNER IS THE WINNER"
+    />
+    <meta name="author" content="AfterNoon" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="google-site-verification" content="KQrHWrn7OMBWGYQeRFsUXnFuMe6f-zf8wj0DRQ9BHbU" />
+    <link rel="canonical" href="https://febryanshino.github.io/AfternoonCircle/" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="theme-color" content="#090a0d" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="./icon.png" />
-  <link rel="apple-touch-icon" href="./icon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AfterNoon | Uma Musume Circle Telemetry, Parent Leaderboard &amp; PvP Breakdown (ウマ娘 因子・サークル攻略)</title>
-  <meta name="description"
-    content="Official telemetry hub, monthly fans leaderboard, daily rank tracker, Parent Leaderboard with PvP factor utility scores, and PvP track breakdown for Uma Musume: Pretty Derby circle AfterNoon (Circle ID: 746888162). ウマ娘 プリティーダービー サークル「AfterNoon」公式月間ファン獲得ランキング＆継承親・因子スコアリーダーボード。OSHI RUNNER IS THE WINNER." />
-  <meta name="keywords"
-    content="AfterNoon, AfterNoon Circle, 746888162, Uma Musume, Uma Musume Pretty Derby, Uma Musume circle leaderboard, Uma Musume parent leaderboard, Uma Musume factor calculator, Uma Musume PvP breakdown, Champions Meeting, League of Heroes, ウマ娘, ウマ娘 プリティーダービー, サークル, 月間ファン獲得ランキング, 継承親, 因子, 因子スコア, 因子計算, チャンミ攻略, リーグオブヒーローズ, サークル順位推移, ファン数, リーダーボード, OSHI RUNNER IS THE WINNER" />
-  <meta name="author" content="AfterNoon Circle" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="google-site-verification" content="KQrHWrn7OMBWGYQeRFsUXnFuMe6f-zf8wj0DRQ9BHbU" />
-  <link rel="canonical" href="https://febryanshino.github.io/AfternoonCircle/" />
-  <link rel="manifest" href="./site.webmanifest" />
-  <meta name="theme-color" content="#090a0d" />
+    <!-- Open Graph / Facebook / Discord -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AfterNoon" />
+    <meta
+      property="og:title"
+      content="AfterNoon | Uma Musume Circle &amp; Parent Leaderboard (ウマ娘 サークル・ファン数・因子)"
+    />
+    <meta
+      property="og:description"
+      content="Live monthly fans leaderboard, daily circle rank tracker, Parent Leaderboard, and PvP breakdown for Uma Musume circle AfterNoon (ID: 746888162). ウマ娘 サークル「AfterNoon」月間ファン獲得ランキング＆継承親評価。"
+    />
+    <meta property="og:url" content="https://febryanshino.github.io/AfternoonCircle/" />
+    <meta property="og:image" content="https://febryanshino.github.io/AfternoonCircle/icon.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="AfterNoon Circle Emblem" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
 
-  <!-- Open Graph / Facebook / Discord -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="AfterNoon" />
-  <meta property="og:title" content="AfterNoon | Uma Musume Circle Telemetry, Parent Leaderboard &amp; PvP Breakdown" />
-  <meta property="og:description"
-    content="Live monthly fans leaderboard, daily circle rank trajectory, Parent Leaderboard with PvP factor utility scores, and PvP event breakdowns for Uma Musume circle AfterNoon (ID: 746888162)." />
-  <meta property="og:url" content="https://febryanshino.github.io/AfternoonCircle/" />
-  <meta property="og:image" content="https://febryanshino.github.io/AfternoonCircle/icon.png" />
-  <meta property="og:image:width" content="512" />
-  <meta property="og:image:height" content="512" />
-  <meta property="og:image:alt" content="AfterNoon Circle Emblem" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:locale:alternate" content="ja_JP" />
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="AfterNoon | Uma Musume Circle &amp; Parent Leaderboard (ウマ娘 サークル・ファン数・因子)"
+    />
+    <meta
+      name="twitter:description"
+      content="Live monthly fans leaderboard, daily circle rank tracker, Parent Leaderboard, and PvP breakdown for Uma Musume circle AfterNoon (ID: 746888162). ウマ娘 サークル「AfterNoon」月間ファン獲得ランキング＆継承親評価。"
+    />
+    <meta name="twitter:image" content="https://febryanshino.github.io/AfternoonCircle/icon.png" />
 
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="AfterNoon | Uma Musume Circle Telemetry, Parent Leaderboard &amp; PvP Breakdown" />
-  <meta name="twitter:description"
-    content="Live monthly fans leaderboard, daily circle rank trajectory, Parent Leaderboard with PvP factor utility scores, and PvP event breakdowns for Uma Musume circle AfterNoon (Circle ID: 746888162)." />
-  <meta name="twitter:image" content="https://febryanshino.github.io/AfternoonCircle/icon.png" />
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AfterNoon | Uma Musume Circle & Parent Leaderboard (ウマ娘 サークル・ファン数・因子)",
+        "alternateName": [
+          "AfterNoon",
+          "AfterNoon Circle",
+          "Uma Musume AfterNoon",
+          "ウマ娘 サークル AfterNoon",
+          "AfterNoon 月間ファン獲得ランキング",
+          "AfterNoon Fans Leaderboard",
+          "AfterNoon Parent Leaderboard",
+          "AfterNoon 継承親リーダーボード"
+        ],
+        "url": "https://febryanshino.github.io/AfternoonCircle/",
+        "description": "Official monthly fans leaderboard, daily circle rank tracker, parent evaluation leaderboard, and PvP breakdown for Uma Musume: Pretty Derby circle AfterNoon (Circle ID: 746888162). ウマ娘 プリティーダービー サークル「AfterNoon」の月間ファン獲得ランキング・順位推移・継承親評価・PvP攻略サイト。",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "All",
+        "inLanguage": ["en", "ja"],
+        "featureList": [
+          "Monthly Circle Fans Leaderboard (月間サークルファン獲得ランキング)",
+          "Daily Circle Rank History & Target Pacing (サークル順位推移・獲得ペース)",
+          "Parent Evaluation Leaderboard (継承親評価リーダーボード)",
+          "PvP Breakdown for Champions Meeting & League of Heroes (チャンミ・LOHコース攻略)",
+          "Karbit Character Switch & Oshi Tracker (代表ウマ娘変更・推し履歴)",
+          "Factor Receipt Extractor & Stitcher (因子レシート抽出・結合)",
+          "Racecourse Simulator (レースシミュレーター)"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "AfterNoon",
+          "identifier": "746888162",
+          "slogan": "OSHI RUNNER IS THE WINNER"
+        }
+      }
+    </script>
 
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "AfterNoon | Uma Musume Circle Telemetry, Parent Leaderboard & PvP Breakdown",
-    "alternateName": [
-      "AfterNoon",
-      "AfterNoon Circle",
-      "Uma Musume AfterNoon",
-      "ウマ娘 サークル AfterNoon",
-      "AfterNoon 月間ファン獲得ランキング",
-      "AfterNoon Fans Leaderboard",
-      "AfterNoon Parent Leaderboard",
-      "AfterNoon 継承親リーダーボード"
-    ],
-    "url": "https://febryanshino.github.io/AfternoonCircle/",
-    "description": "Official telemetry hub, monthly fans leaderboard, daily circle rank tracker, Parent Leaderboard with PvP factor utility scores, and PvP track breakdown for Uma Musume: Pretty Derby circle AfterNoon (Circle ID: 746888162).",
-    "applicationCategory": "GameApplication, SportsApplication",
-    "operatingSystem": "All",
-    "inLanguage": ["en", "ja"],
-    "featureList": [
-      "Monthly Circle Fans Leaderboard",
-      "Daily Circle Rank History & Tier Pacing",
-      "Parent Leaderboard with PvP Factor Utility Scores",
-      "PvP Breakdown for Champions Meeting & League of Heroes",
-      "Karbit Character Switch & Oshi Tracker",
-      "Factor Receipt Extractor & Stitcher",
-      "Racecourse Simulator"
-    ],
-    "publisher": {
-      "@type": "Organization",
-      "name": "AfterNoon Circle",
-      "identifier": "746888162",
-      "slogan": "OSHI RUNNER IS THE WINNER"
-    }
-  }
-  </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700;900&family=Outfit:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="./assets/index-C53I2nKc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dqsam1O4.css">
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700;900&family=Outfit:wght@500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-nsdy9ahV.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Dqsam1O4.css">
-</head>
-
-<body class="bg-carbon-950 text-neutral-100 antialiased selection:bg-gold-500 selection:text-black">
-  <div id="root">
-    <!-- Fallback crawlable content for search engine indexers before JS hydration -->
-    <noscript>
-      <div style="padding: 2.5rem 1.5rem; max-width: 800px; margin: 0 auto; font-family: sans-serif; color: #ededed;">
-        <h1 style="font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; color: #f1c453;">AfterNoon | Uma Musume Circle Telemetry, Parent Leaderboard &amp; PvP Breakdown</h1>
-        <h2 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 1rem; color: #d4d4d8;">ウマ娘 プリティーダービー サークル「AfterNoon」公式月間ファン獲得ランキング＆因子攻略</h2>
-        <p style="font-size: 1rem; color: #a3a3a3; margin-bottom: 1rem; line-height: 1.6;">
-          Official competitive hub for <strong>Uma Musume: Pretty Derby</strong> circle <strong>AfterNoon</strong> (Circle ID: <code>746888162</code>).
-        </p>
-        <ul style="color: #a3a3a3; line-height: 1.8; margin-bottom: 1rem;">
-          <li><strong>Monthly Fans Leaderboard</strong>: Live 30-member fan progression, daily circle rank trajectory, target pacing analytics, and monthly Hall of Fame archives.</li>
-          <li><strong>Parent Leaderboard &amp; PvP Factor Scoring</strong>: Objective multi-factor inheritance utility evaluation scoring Main and Grandparent (GP1/GP2) Blue, Pink, Green, and White skills powered by course bashin simulation values.</li>
-          <li><strong>PvP Breakdown</strong>: Comprehensive track topology, phase breakdown, elevation profile, character rankings, and skill velocity simulation for Champions Meeting &amp; League of Heroes.</li>
-          <li><strong>Karbit Oshi Tracker</strong>: Representative Uma Musume switch frequency, costume change logs, and character loyalty telemetry.</li>
-        </ul>
-        <p style="font-weight: 700; letter-spacing: 0.05em; color: #ffffff;">OSHI RUNNER IS THE WINNER</p>
-        <p style="font-size: 0.875rem; color: #737373; margin-top: 1.5rem;">
-          ※ Enable JavaScript to experience interactive real-time standings, 3D animated character podiums, interactive trajectory graphs, and live member telemetry.
-        </p>
-      </div>
-    </noscript>
-  </div>
-</body>
-
+  <body class="bg-carbon-950 text-neutral-100 antialiased selection:bg-gold-500 selection:text-black">
+    <div id="root">
+      <!-- Fallback crawlable content for search engine indexers before JS hydration -->
+      <noscript>
+        <div style="padding: 2.5rem 1.5rem; max-width: 800px; margin: 0 auto; font-family: sans-serif; color: #ededed">
+          <h1 style="font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; color: #f1c453">
+            AfterNoon | Uma Musume Circle &amp; Parent Leaderboard
+          </h1>
+          <h2 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 1rem; color: #d4d4d8">
+            ウマ娘 プリティーダービー サークル「AfterNoon」月間ファン獲得ランキング・継承親評価・PvP攻略
+          </h2>
+          <p style="font-size: 1rem; color: #a3a3a3; margin-bottom: 0.75rem; line-height: 1.6">
+            Official leaderboard and tools for <strong>Uma Musume: Pretty Derby</strong> circle
+            <strong>AfterNoon</strong> (Circle ID: <code>746888162</code>).
+          </p>
+          <p style="font-size: 0.95rem; color: #a3a3a3; margin-bottom: 1rem; line-height: 1.6">
+            ウマ娘 プリティーダービーのサークル「<strong>AfterNoon</strong>」（サークルID:
+            <code>746888162</code>）の公式ファン数ランキング・順位推移・継承親評価・ツール集です。
+          </p>
+          <ul style="color: #a3a3a3; line-height: 1.8; margin-bottom: 1rem">
+            <li>
+              <strong>Monthly Fans Leaderboard / 月間ファン獲得ランキング</strong>: 30-member monthly fan gains, daily
+              circle rank history, target pacing, and Hall of Fame archives.
+              所属メンバー30名の月間獲得ファン数、日別サークル順位推移、獲得ペース、殿堂入り記録。
+            </li>
+            <li>
+              <strong>Parent Leaderboard / 継承親評価ランキング</strong>: Inheritance evaluation scoring Main and
+              Grandparents (GP) across Blue, Pink, Green, and White factors for Champions Meeting and League of Heroes.
+              チャンミ・LOH向けの代表親および祖父母（GP）の青・赤・緑・白因子評価スコア。
+            </li>
+            <li>
+              <strong>PvP Breakdown / チャンミ・LOHコース攻略</strong>: Track topology, elevation profile, character
+              rankings, and skill velocity comparisons. コース構造、高低差、脚質別おすすめウマ娘およびスキル解説。
+            </li>
+            <li>
+              <strong>Karbit Oshi Tracker / 代表ウマ娘変更履歴</strong>: Representative Uma Musume character and costume
+              switch logs. 代表ウマ娘・衣装の変更履歴と継続率。
+            </li>
+            <li>
+              <strong>Tools / トレーナー向けツール</strong>: Factor Receipt Extractor (因子レシート抽出) and Race
+              Simulator (レースシミュレーター).
+            </li>
+          </ul>
+          <p style="font-weight: 700; letter-spacing: 0.05em; color: #ffffff">OSHI RUNNER IS THE WINNER</p>
+          <p style="font-size: 0.875rem; color: #737373; margin-top: 1.5rem">
+            Enable JavaScript to view interactive leaderboards, 3D character podiums, and pacing charts. /
+            JavaScriptを有効にするとリアルタイムのランキングやグラフをご利用いただけます。
+          </p>
+        </div>
+      </noscript>
+    </div>
+  </body>
 </html>
